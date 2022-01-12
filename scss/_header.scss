@@ -1,0 +1,54 @@
+header{
+    background-color: $header-bg;
+    height: 50px;
+    .header_one ,.header_2nd_text{
+         padding-top: 10px;
+        ul{
+           margin-left: -40px;
+            li{
+                display: inline-block;
+                .dropdown{
+                    border-right: 1px solid $white_text;
+                    button{
+                     
+                        background: transparent;
+                        border: none;
+                        font-family: $open-sons;
+                        font-size: 13px;
+                        color: $white_text;
+                        font-weight: 400;
+                        text-transform: uppercase;
+
+                        &:hover{
+                            color: $red;
+                        }
+                        span{
+                            margin-right: 10px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+     }
+}
+.btn-check:focus + .btn, .btn:focus {
+	outline: 0;
+ box-shadow:none;
+}
+.call{
+    padding-left: 20px;
+    color: $white_text !important;
+}
+.login{
+    color: $white_text;
+}
+.dropdown-menu{
+    background-color: $header-bg;
+    li{
+        display: block !important;
+       a{
+           color: white;
+       }
+    }
+}

@@ -1,0 +1,33 @@
+#service{
+    background-color: $service-and-laptop-bg;
+    .service_main{
+        .service_item{
+    padding: 60px 0;
+    text-align: center;
+    border-right: 1px solid $white_night;
+    &:hover h3{
+        color: $red;
+    }
+    h3{
+        font-family: $maven;
+        font-size: 24px;
+        font-weight: 400;
+        color: $black_text;
+        span{
+            font-size: 28px;
+            padding: 0 10px;
+        }
+     
+       
+    }
+    p{
+        font-family: $open-sons;
+        font-size: 14px;
+        font-weight: 400;
+        color: $black_text;
+        padding: 20px 60px;
+    
+    }
+        }
+    }
+}

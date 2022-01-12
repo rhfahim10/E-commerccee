@@ -1,0 +1,135 @@
+#banner{
+    
+    .right{
+        font-size: 25px;
+        color: $white_text;
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 999;
+        bottom: 20px;
+        left:47%;
+        transform:translateX(-47%) ;
+        -webkit-transform:translateX(-47%) ;
+        -moz-transform:translateX(-47%) ;
+        -ms-transform:translateX(-47%) ;
+        -o-transform:translateX(-47%) ;
+        cursor: pointer;
+        &:hover{
+            background-color: $red;
+            border-color: transparent;
+        }
+}
+   .left{
+    font-size: 25px;
+    color: $white_text;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    bottom: 20px;
+    right: 47%;
+    transform:translateX(-47%) ;
+    -webkit-transform:translateX(-47%) ;
+    -moz-transform:translateX(-47%) ;
+    -ms-transform:translateX(-47%) ;
+    -o-transform:translateX(-47%) ;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $red;
+        border-color: transparent;
+    }
+}
+
+    .banner_part{
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: 120px 0;
+        .banner_text{
+            h2{
+              font-family: $roboto;
+              font-size: 70px;
+              font-weight: 700;
+              text-transform: uppercase;
+              color: $red;
+            }
+
+            h3{
+                font-family: $roboto;
+                font-size: 40px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: $white_text;
+            }
+            p{
+                font-family: $open-sons;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+               color: $white_night;
+               
+            }
+            .banner_button{
+                
+                ul{
+                    margin-left: -30px;
+                    margin-top: 60px;
+                  
+                    li{
+                        display: inline-block;
+                        height: 50px;
+                        width: 130px;
+                        background-color: transparent;
+                        margin-right: 30px;
+                        text-align: center;
+                        line-height: 50px;
+                        border: 1px solid $white_text;
+                        border-radius: 3px ;
+                        -webkit-border-radius: 3px ;
+                        -moz-border-radius: 3px ;
+                        -ms-border-radius: 3px ;
+                        -o-border-radius: 3px ;
+                        &:hover{
+                            background-color: $red;
+                            border-color: transparent;
+                         }
+                        }
+                      
+                        a{
+                        font-family: $roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        color: $white_text;
+                    
+                        }
+                    }
+                }
+            }
+        }
+    
+    .banner_overly{
+        
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0,0,0,0.7);
+           
+        }
+    }
+}

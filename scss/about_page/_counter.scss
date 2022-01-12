@@ -1,0 +1,23 @@
+#countert{
+    margin-top: 100px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    .counter_main{
+        padding: 40px 0;
+        text-align: center;
+        h4{
+            font-family: $roboto;
+            font-size: 40px;
+            font-weight: 400;
+            color: $white_text;
+        }
+        h5{
+           
+            font-family: $roboto;
+            font-size: 16px;
+            font-weight: 400;
+            color: $white_text;
+        }
+    }
+}

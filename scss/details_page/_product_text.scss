@@ -1,0 +1,32 @@
+#product_text{
+    .text_header{
+        border-bottom: 1px dashed $black_text;
+        border-top: 1px dashed $black_text;
+        padding: 20px 0;
+        h6{
+            font-family: $roboto;
+            font-size: 20px;
+            font-weight: 400;
+            color: $black_text;
+            span{
+                color: $red;
+                padding-left: 10px;
+            } 
+          
+        }
+
+     
+
+    }
+}
+.main_texttt{
+    padding: 10px 0;
+   p{
+    font-family: $open-sons;
+    font-size: 14px;
+    font-weight: 400;
+    color: $black_text;
+    line-height: 24px;
+    padding: 20px 0;
+   }
+}

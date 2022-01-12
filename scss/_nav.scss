@@ -1,0 +1,71 @@
+.navbar{
+    height: 100px;
+           .nav-link{
+                    padding: 0 10px;
+                    position: relative;
+                    font-family: $roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    color:$black_text !important;
+                  
+                    &:hover{
+                        color: $red !important;
+                    }
+                    &:hover::after{
+                        opacity: 1;
+                    }
+                    &:hover::before{
+                        opacity: 1;
+                    }
+                    
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        bottom: -10px;
+                        left: 10px;
+                        height: 1px;
+                        width: 23px;
+                        background-color: $red;
+                        opacity: 0;
+                    }
+                    &::before{
+                        position: absolute;
+                        content: "";
+                        bottom: -12px;
+                        left: 10px;
+                        height: 1px;
+                        width: 11px;
+                        background-color: $red;
+                        opacity: 0;
+                    }
+                    
+              }
+.nav-item{
+    padding: 0 10px;
+}
+.nav_shop{
+    color: $red !important;
+}
+}
+
+.nav_iconn{
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: $red;
+    margin-right: 20px;
+}
+.navvv , .navvv_2{
+    display: none;
+}
+.navbar-nav {
+    margin-left: 250px;
+}
+
+.btn-primary{
+  opacity: 0;
+}
+// .navbar_background{
+//     background-color: $yellow;
+// }

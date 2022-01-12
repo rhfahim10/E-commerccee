@@ -1,0 +1,82 @@
+#contact{
+    margin: 100px 0;
+
+
+   .form-control {
+    border-color: $black-text;
+   }
+    .massage {
+        height: 150px;
+        border: 1px solid $black-text;
+       
+ 
+    }
+    .form-check-input:checked {
+        background-color: $red;
+        border-color: $black-text;
+    }
+
+    .btn {
+        color: $black-text;
+        background-color: red;
+        border: 1px solid $black-text;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+
+        &:hover{
+            background-color: $red;
+            color: white;
+            border-color: transparent;
+        }
+}
+
+.context_text{
+    h4{
+        font-family: $open-sons;
+        font-weight: 400;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    h5{
+        font-family: $open-sons;
+        font-weight: 400;
+        font-size:16px;
+        padding-top: 20px;
+        color: $black-text;
+    }
+
+    .contact_link{
+        padding-top: 55px;
+        h3{
+            font-family: $open-sons;
+            font-weight: 400;
+            font-size:16px;
+            padding-top: 10px;
+            color: $red;
+            span{
+               padding-left: 20px;
+                color: $black-text; 
+                &:hover{
+                    color: $red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.contact_iframe{
+    margin: 100px 0;
+ .ratio {
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+}
+}

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-site</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+      <!--
+                    Header Part  Start
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+ <header>
+   <div class="container">
+       <div class="header_main">
+           <div class="row">
+               <div class="col-6 header_one">
+                 <ul>
+                   <li>
+                    <div class="dropdown one">
+                      <button class="btn dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+                        ENG
+                      </button>
+                      <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" href="#">BAN</a></li>
+                        <li><a class="dropdown-item" href="#">HIN</a></li>
+                      </ul>
+                    </div>
+                   </li>
+
+                   <li>
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      USD $
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">TK /=</a></li>
+                        <li><a class="dropdown-item" href="#">EUR $</a></li>
+                       
+                      </ul>
+                    </div>
+                   </li>
+                   <li>
+                   <a href="#" class="call"> Toll Free: +123 4567 8900</a>
+                   </li>
+                 </ul>
+               </div>
+               <div class="col-6 text-end">
+                 <div class="header_2nd_text">
+                    <ul>
+                     <li>
+                      <div class="dropdown">
+                        <button class="btn"  aria-expanded="false">
+                          <span><i class="fas fa-heart"></i></span> Wishlist
+                        </button>
+                     
+                      </div>
+                     </li>
+                       
+
+                        <li>
+                          <div class="dropdown">
+                            <button class="btn" type="button" aria-expanded="false">
+                              <span><i class="fas fa-user-circle"></i></span>MY ACCOUNT
+                            </button>
+                          
+                          </div>
+                        </li>
+                        <li>
+                          <a href="#" class="login">Login / Register</a></li>
+                
+                    </ul>
+                 </div>
+
+               </div>
+           </div>
+
+       </div>
+   </div>
+   
+ </header>
+    <!--
+                    Header Part  End
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+
+    <!--
+            NAV PART START
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+            
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="details.html">Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Accesorries</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item navvv">
+                  <a class="nav-link" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li class="nav-item navvv_2">
+                  <a class="nav-link nav_shop" href="#"><i class="fas fa-suitcase"></i> <span>2 Items</span></a>
+                </li>
+          </ul>
+        </div>
+        <div class="nav_lest">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">  
+            <li class="nav_search">
+              <a class="nav_iconn" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav_shop" href="#"><i class="fas fa-suitcase"></i> <span>2 Items</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+             NAV PART END
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<!--    About part start -->
+
+<section id="about">
+  <div class="container">
+      <div class="about_main">
+          <h3>About Us</h3>
+          <h4>Home >> <span>About</span></h4>
+      </div>
+  </div>
+</section>
+
+      <!--    About part End -->
+
+<!-- cart part start -->
+<section id="cart_main">
+    <div class="container">
+    <div class="cart_main">
+     <div class="row">
+       <div class="col-lg-9">
+      <div class="row cart_border">
+       <div class="col-lg-4">
+         <h4 class="line">Prodct Color</h4>
+       </div>
+       <div class="col-lg-2 cart_border_left">
+         <h4>Unit Price</h4>
+       </div>
+       <div class="col-lg-2 cart_border_left">
+         <h4>Quantity</h4>
+       </div>
+       <div class="col-lg-2 cart_border_left">
+         <h4>Total Price</h4>
+       </div>
+       <div class="col-lg-2 cart_border_left">
+         <h4>Remove Them</h4>
+       </div>
+      </div>
+
+      <div class="row cart_border_2nd">
+        <div class="col-lg-4 cart_border_left_two">
+         <div class="cart_item_main">
+           <div class="cart_img">
+             <img src="images/cart1.jpg" alt="">
+           </div>
+           <div class="cart_item">
+             <h5>Samsung Smart Watch</h5>
+             <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <h6>color : Silver</h6>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+        <div class="amount">
+          <h2>$99.00</h2>
+        </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="countaty">
+            <div class="quantity">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="quantity">
+            <h3>$99.00</h3>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="cart_icon">
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row cart_border_2nd">
+        <div class="col-lg-4 cart_border_left_two">
+         <div class="cart_item_main">
+           <div class="cart_img">
+             <img src="images/cart2.jpg" alt="">
+           </div>
+           <div class="cart_item">
+             <h5>Apple Smart Watch</h5>
+             <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <h6>color : Black</h6>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+        <div class="amount">
+          <h2>$99.00</h2>
+        </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="countaty">
+            <div class="quantity">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="quantity">
+            <h3>$99.00</h3>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="cart_icon">
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row cart_border_2nd">
+        <div class="col-lg-4 cart_border_left_two">
+         <div class="cart_item_main">
+           <div class="cart_img">
+             <img src="images/cart3.jpg" alt="">
+           </div>
+           <div class="cart_item">
+             <h5>Foam Chair</h5>
+             <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <h6>color : Magnet</h6>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+        <div class="amount">
+          <h2>$99.00</h2>
+        </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="countaty">
+            <div class="quantity">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="quantity">
+            <h3>$99.00</h3>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="cart_icon">
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row cart_border_2nd">
+        <div class="col-lg-4 cart_border_left_two">
+         <div class="cart_item_main">
+           <div class="cart_img">
+             <img src="images/cart4.jpg" alt="">
+           </div>
+           <div class="cart_item">
+             <h5>Rocking Chair</h5>
+             <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              
+            </ul>
+            <h6>color : Yellow</h6>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+        <div class="amount">
+          <h2>$99.00</h2>
+        </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="countaty">
+            <div class="quantity">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="quantity">
+            <h3>$99.00</h3>
+          </div>
+        </div>
+        <div class="col-lg-2 cart_border_left_two">
+          <div class="cart_icon">
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+       </div>
+       <div class="col-lg-3">
+          <div class="coupon_part">
+            <div class="coupon">
+              <h3>Have a Coupon?</h3>
+             </div>
+            <div class="footer_from">
+              
+              <div class="fromm">
+                <form action="">
+                  <input type="text" placeholder= "Enter Your Code " class="frommm">
+                </form>
+              </div>
+               <div class="submit_btn">
+                 <div class="submit"> <h2>Sent</h2></div>
+               </div>
+            </div>
+          </div>
+
+          <div class="total_part">
+           <div class="total_one">
+             <h5>Cart Total</h5>
+           </div>
+
+           <div class="total_two">
+             <div class="left_total">
+               <h5> Cart Subtotal</h5>
+             </div>
+             <div class="right_total">
+               <h6>$990:00</h6>
+             </div>
+           </div>
+
+           
+           <div class="total_two">
+            <div class="left_total">
+              <h5> + Shipping</h5>
+            </div>
+            <div class="right_total">
+              <h6>$10:00</h6>
+            </div>
+          </div>
+
+
+          
+          <div class="total_two borde_red">
+            <div class="left_total">
+              <h5> - Discount</h5>
+            </div>
+            <div class="right_total">
+              <h6>$20:00</h6>
+            </div>
+          </div>
+
+          
+          <div class="total_two">
+            <div class="left_total">
+              <h5> Grand Total</h5>
+            </div>
+            <div class="right_total">
+              <h6>$980:00</h6>
+            </div>
+          </div>
+          </div>
+
+          <div class="total_btn">
+            <ul>
+              <li><a href="#">Updated Cart</a></li>
+              <li><a href="#">proceed</a></li>
+            </ul>
+          </div>
+       </div>
+     </div>
+    </div>
+    </div>
+       
+</section>
+<!--  cart part end -->
+
+      <!-- partner part start -->
+  <section id="partner">
+   <div class="container">
+     <div class="row">
+       <div class="col text-center">
+         <div class="partner_main">
+           <div class="partner_item">
+            <img src="images/partner1.jpg" alt="">
+           </div>
+           <div class="partner_item">
+            <img src="images/partner2.jpg" alt="">
+           </div>
+           <div class="partner_item">
+            <img src="images/partner3.jpg" alt="">
+           </div>
+           <div class="partner_item">
+            <img src="images/partner4.jpg" alt="">
+           </div>
+           <div class="partner_item">
+            <img src="images/partner2.jpg" alt="">
+           </div>
+           <div class="partner_item">
+            <img src="images/partner3.jpg" alt="">
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </section>
+
+        <!-- partner part End -->
+    <!-- 
+                    Footer part start
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->  
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="footer_one">
+              <div class="footer_logo">
+                <img src="images/footerlogo.png" alt="">
+              </div>
+              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
+              <h3>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</h3>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer_two">
+              <h3>CONTACT US</h3>
+               <p><span><i class="fas fa-street-view"></i></span> 1234, Parkstreet Avenue, NewYork</p>
+               <p><span><i class="fas fa-phone-square-alt"></i></span>+123 456 78900, +009 876 54321</p>
+  
+               <p><span><i class="fas fa-envelope-open"></i></span> info@e-buy.com, e-buy@info.com</p>
+  
+               <p><span><i class="fas fa-globe-americas"></i></span> www.e-buy.com, www.infobuy.com</p>
+  
+  
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer_three">
+            <h3>MY ACCOUNT</h3>
+             <p>Wishlist</p>
+             <p>Shoping Cart</p>
+             <p>Compare</p>
+             <p>Chekout</p>
+            </div>
+          </div>
+  
+  
+          <div class="col-4 text-align-end">
+            <div class="footer_four">
+              <h3>Sign Up For Newsletter</h3>
+              <div class="footer_from">
+                <div class="fromm">
+                  <form action="">
+                    <input type="text" placeholder= "Your E-mail " class="frommm">
+                  </form>
+                </div>
+                 <div class="submit_btn">
+                   <div class="submit"> <h2>SUBMIT</h2></div>
+                 </div>
+              </div>
+                <h4>FOLLOW ME ON</h4>
+                <div class="font_item">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-square"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter-square"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fab fa-pinterest-square"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fab fa-behance-square"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fab fa-invision"></i></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    <section id="footer_last">
+     <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3>
+            Copyright @ 2018. All right reserved by
+            <span>E-BUY</span>
+          </h3>
+        </div>
+        <div class="col-6">
+          <div class="footer_last_img">
+          <a href="#">  <img src="images/payment.png" alt=""></a>
+          </div>
+        </div>
+       
+    
+      </div>
+     </div>
+    </section>
+
+
+    <!-- 
+                    Footer part END
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->  
+
+    <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+             SCRIPT PART LINK PART 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+#about{
+    background: url(../images/about_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .about_main{
+        padding: 100px 0;
+        text-align: center;
+        h3{
+            font-family: $open-sons;
+            font-size: 24px;
+            font-weight: 400;
+            color: $white_text;
+        }
+        h4{
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 400;
+            color: $white_text;
+            span{
+                color: $red;
+            }
+        }
+    }
+}
+
+#about_main{
+    .abou_img{
+        margin-top: 100px;
+        position: relative;
+    .about_overly {
+            position: absolute;
+            top: 40px;
+            left: 570px;
+            height: 85%;
+            width: 95%;
+            background: rgba(0,0,0,0.8);
+            padding: 20px ;
+            h5{
+                font-family: $open-sons;
+            font-size: 14px;
+            font-weight: 400;
+            color: $white_night;
+            line-height: 24px;
+            padding-top: 20px;
+            }
+            h6{
+                font-family: $open-sons;
+            font-size: 14px;
+            font-weight: 400;
+            color: $white_night;
+            line-height: 24px;
+            padding-top: 30px;
+            }
+            p{
+                font-family: $open-sons;
+            font-size: 14px;
+            font-weight: 400;
+            color: $white_night;
+            line-height: 24px;
+            padding-top: 30px;
+            }
+        }
+    }
+}

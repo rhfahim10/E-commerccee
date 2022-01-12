@@ -1,0 +1,103 @@
+#blog{
+    .blog_main{
+        .blog_vedio{
+             position: relative;
+           :hover.blog_overly{
+               opacity: 1;
+               transition: all linear .5s;
+               -webkit-transition: all linear .5s;
+               -moz-transition: all linear .5s;
+               -ms-transition: all linear .5s;
+               -o-transition: all linear .5s;
+}
+                img{
+                    width: 100%;
+                 }
+            .blog_overly{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: rgba(0,0,0,0.7);
+                    opacity: 0;
+
+                    h3{
+                        font-family: $open-sons;
+                        font-size: 14px;
+                        font-weight: 400;
+                       padding: 10px 10px;
+                       color: $white_text !important;
+                    }
+                  .play{
+                      font-size: 50px;
+                      color: white;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      -webkit-transform: translate(-50%, -50%);
+                      -moz-transform: translate(-50%, -50%);
+                      -ms-transform: translate(-50%, -50%);
+                      -o-transform: translate(-50%, -50%);
+                      &:hover{
+                          color: $red;
+                      }
+}
+                  .text_one{
+                      position: absolute;
+                      bottom: 0;
+                      left: 0;
+                      ul{
+                          margin-left: -30px;
+                          li{
+                              margin: 0 12px;
+                              display: inline-block;
+                              color: $white_text;
+                              span{
+                                  color: $red;
+                              }
+                          }
+                      }
+                  }
+                
+            }
+        }
+       
+        .blog_item{
+            h3{
+                font-family: $roboto;
+               font-size: 20px;
+               font-weight: 400;
+               padding-top: 20px;
+            }
+            p{
+                font-family: $open-sons;
+               font-size: 14px;
+               font-weight: 400;
+               color: $black_text;
+               line-height: 24px;
+            }
+        .link{
+            &:hover a{
+                color:$red;
+            }
+            &:hover span{
+                color:$red;
+            }
+            a{
+                font-family: $open-sons;
+                font-size: 16px;
+                font-weight: 400;
+                color: $black_text;
+              
+            }
+            span{
+                color: $black_text;
+              
+            }
+        }
+        }
+    }
+
+}

@@ -1,0 +1,86 @@
+#testimonial{
+    background: url(../images/test.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:60px 0 130px 0;
+    position: relative;
+    .left_test{
+        font-size: 25px;
+        color: $white_text;
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 999;
+        bottom: -100px;
+        left:44%;
+        transform:translateX(44%);
+        -webkit-transform:translateX(44%);
+        -moz-transform:translateX(44%);
+        -ms-transform:translateX(44%);
+        -o-transform:translateX(44%);
+        cursor: pointer;
+        &:hover{
+            background-color: $red;
+            border-color: transparent;
+        }
+}
+    .right_test{
+        font-size: 25px;
+        color: $white_text;
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 999;
+        bottom: -100px;
+        right: 48%;
+        transform:translateX(48%) ;
+        -webkit-transform:translateX(48%) ;
+        -moz-transform:translateX(48%) ;
+        -ms-transform:translateX(48%) ;
+        -o-transform:translateX(48%) ;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $red;
+            border-color: transparent;
+        }
+}
+       .testimonial_text{
+           h4{
+               font-family: $roboto;
+               font-size: 20px;
+               font-weight: 400;
+               color: $white_text;
+           }
+           h5{
+            font-family: $roboto;
+            font-size: 16px;
+            font-weight: 300;
+            color: $white_text;
+        }
+        p{
+            font-family: $open-sons;
+            font-size: 14px;
+            font-weight: 400;
+            color: $white_night;
+            padding-top: 20px;
+            line-height: 24px;
+        
+        }
+       }
+       .signature{
+           text-align: end;
+           padding-top: 20px;
+       }
+    
+}

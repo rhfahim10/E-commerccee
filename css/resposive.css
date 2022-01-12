@@ -1,0 +1,764 @@
+
+@media (max-width: 575.98px){ 
+    .btn-primary {
+        margin: 30px;
+        opacity: 1;
+    }
+  
+    .row > * {
+        padding-right: calc(var(--bs-gutter-x) * 1);
+        padding-left: calc(var(--bs-gutter-x) * 1);
+    }
+    header {
+        display: none;
+    }
+    .navbar-toggler{
+        background-color:#de4644 ;
+        margin-right: 25px;
+        display: none;
+    }
+   
+    .navbar-collapse {
+        background: gray;
+    }
+    .navbar-nav {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .nav-link{
+      color: white !important;  
+    }
+    .nav_lest{
+        display: none;
+    }
+    .navvv , .navvv_2{
+        display: block;
+    }
+    .navbar-brand img {
+     margin-left: 30px;
+    }
+
+    #banner .banner_part .banner_text h2 {
+        font-size: 50px;
+    }
+    #banner .banner_part .banner_text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner_part .banner_text p {
+        font-size: 13px;
+        color: #ffff;
+      
+    }
+    #banner .banner_part .banner_text .banner_button ul a {
+        font-size: 14px;
+        color: #ffff;
+    }
+    #banner .banner_part .banner_text .banner_button ul li {
+        line-height: 40px;
+        height: 40px;
+        width: 100px;
+        margin-right: 10px;
+    }
+    .banner_text{
+        margin-left: 20px;
+    }
+    #banner .banner_part {
+        padding: 80px 0;
+    }
+    #banner .banner_part .banner_text .banner_button ul {
+      margin-top: 30px;
+    }
+    #banner .left {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 52%;
+     
+    }
+    #banner .right {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 45%;
+     
+    }
+    #service .service_main .service_item h3 {
+        font-size: 16px;
+      
+    }
+    #service .service_main .service_item {
+        padding: 20px 0;
+	border-right: none;
+}
+#service .service_main .service_item p {
+	padding: 0 0;
+}
+    #service .service_main .service_item h3 span {
+        font-size: 22px;
+        padding: 0 5px;
+    }
+    #service .service_main .service_item p {
+        font-size: 12px;
+        padding-top: 15px;
+      
+    }
+    #shop {
+        margin-top: 50px;
+    }
+    #shop .shop_item {
+        margin: 19px 0px;
+    }
+    #shop .shop_item .shop_img .shop_overly {
+
+        height: 180px;
+       
+    }
+    #shop .shop_item .shop_img .shop_overly .shop_button {
+        margin-bottom: 15px;
+    }
+    #feature .feature_butttons ul li {
+        padding: 0 10px;
+     
+    }
+    .feature_main .feature_img .feature_overly {
+        opacity: 1;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item {
+        right: 30%;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item ul li {
+        margin: 80px 0;
+    }
+    #laptop .laptop_container .laptop_1 img {
+        max-width: 95%;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 300px;
+        top: 12px;
+    }
+    #laptop .laptop_container .laptop_2 .laptop_text_main h2 {
+     
+        font-size: 30px;
+      
+    }
+    #laptop .laptop_container .laptop_2 .laptop_text_main h3 {
+     
+        font-size: 27px;
+    }
+    .offer ul li h5 {
+        font-size: 18px;
+        padding: 10px 14px;
+
+    }
+    .laptop_text_main{
+        padding-left: 10px;
+    }
+    .laptop_offer{
+        padding-left: 10px;
+    }
+
+    #feature .feature_butttons ul li:last-child{
+      
+        border-right:none; 
+    }
+  
+    #laptop {
+        margin-top: 50px;
+        padding-top: 320px;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 40px;
+        top: -264px;
+    }
+    .product_main{
+        position: relative;
+    }
+    .offer ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    #testimonial {
+       display: none;
+    }
+    #testimonial_heading
+    {
+        display: none;
+    }
+    #blog{
+        margin-top: -70px;
+    }
+    .product_main .product_img .product_overly .product_overly_item ul li {
+        margin: 60px 0;
+    }
+    .product_main .product_img .product_overly {
+
+        opacity: 1;
+    }
+    #blog .blog_main .blog_vedio .blog_overly {
+
+        opacity: 1;
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one {
+        left: 10px;
+    }
+    .blog_main{
+        margin: 20px 0;
+    }
+    #footer {
+     display: none;
+    }
+    #footer_last{
+        display: none;
+    }
+
+    /* ////about.html */
+    #about .about_main {
+        padding: 25px 0;
+    }
+    #countert .counter_main h4 {
+        font-size: 30px;
+    }
+    #countert .counter_main h5 {
+        font-size: 12px;
+        
+    }
+    #designer .designer_img .designer_overly {
+        opacity: 1;
+    }
+    #designer .designer_img .designer_overly .designer_overly_item ul li {
+        margin: 70px 0;
+    }
+    #designer .designer_img .designer_overly .designer_overly_item {
+        right: 30%;
+   
+    }
+    #designer .designer_main {
+        padding: 18px 0;
+    }
+    #about_main .abou_img {
+        display: none;
+    }
+    #countert {
+        margin-top: 40px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){ 
+  
+    .btn-primary {
+        margin: 30px;
+        opacity: 1;
+    }
+  
+    .row > * {
+        padding-right: calc(var(--bs-gutter-x) * 1);
+        padding-left: calc(var(--bs-gutter-x) * 1);
+    }
+    header {
+        display: none;
+    }
+    .navbar-toggler{
+        background-color:#de4644 ;
+        margin-right: 25px;
+        display: none;
+    }
+   
+    .navbar-collapse {
+        background: gray;
+    }
+    .navbar-nav {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .nav-link{
+      color: white !important;  
+    }
+    .nav_lest{
+        display: none;
+    }
+    .navvv , .navvv_2{
+        display: block;
+    }
+    .navbar-brand img {
+     margin-left: 30px;
+    }
+
+    #banner .banner_part .banner_text h2 {
+        font-size: 50px;
+    }
+    #banner .banner_part .banner_text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner_part .banner_text p {
+        font-size: 13px;
+        color: #ffff;
+      
+    }
+    #banner .banner_part .banner_text .banner_button ul a {
+        font-size: 14px;
+        color: #ffff;
+    }
+    #banner .banner_part .banner_text .banner_button ul li {
+        line-height: 40px;
+        height: 40px;
+        width: 100px;
+        margin-right: 10px;
+    }
+    #banner .banner_part {
+        padding: 80px 0;
+    }
+    #banner .banner_part .banner_text .banner_button ul {
+      margin-top: 30px;
+    }
+    #banner .left {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 52%;
+     
+    }
+    #banner .right {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 45%;
+     
+    }
+    #service .service_main .service_item h3 {
+        font-size: 16px;
+      
+    }
+    #service .service_main .service_item {
+	border-right: none;
+}
+#service .service_main .service_item p {
+	padding: 0 0;
+}
+
+    #service .service_main .service_item h3 span {
+        font-size: 22px;
+        padding: 0 5px;
+    }
+    #service .service_main .service_item p {
+        font-size: 12px;
+        padding-top: 15px;
+      
+    }
+    #shop {
+        margin-top: 50px;
+    }
+    #shop .shop_item {
+        margin: 19px 0px;
+    }
+    #shop .shop_item .shop_img .shop_overly {
+
+        height: 180px;
+       
+    }
+    #shop .shop_item .shop_img .shop_overly .shop_button {
+        margin-left: 39%;
+        
+    }
+    #feature .feature_butttons ul li {
+        padding: 0 10px;
+     
+    }
+    .feature_main .feature_img .feature_overly {
+        opacity: 1;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item {
+        right: 30%;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item ul li {
+        margin: 80px 0;
+    }
+    #laptop .laptop_container .laptop_1 img {
+        max-width: 95%;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 300px;
+        top: 12px;
+    }
+    #laptop .laptop_container .laptop_2 .laptop_text_main h2 {
+     
+        font-size: 30px;
+      
+    }
+    #laptop .laptop_container .laptop_2 .laptop_text_main h3 {
+     
+        font-size: 27px;
+    }
+    .offer ul li h5 {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .laptop_text_main{
+        padding-left: 10px;
+    }
+    .laptop_offer{
+        padding-left: 10px;
+    }
+
+    #feature .feature_butttons ul li:last-child{
+      
+        border-right:none; 
+    }
+
+    #laptop {
+        margin-top: 50px;
+        padding-top: 320px;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 40px;
+        top: -264px;
+    }
+    .product_main{
+        position: relative;
+    }
+   
+    
+    #testimonial {
+       display: none;
+    }
+    #testimonial_heading
+    {
+        display: none;
+    }
+    #blog{
+        margin-top: -70px;
+    }
+    .product_main .product_img .product_overly .product_overly_item ul li {
+        margin: 60px 0;
+    }
+    #blog .blog_main .blog_vedio .blog_overly {
+
+        opacity: 1;
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one {
+       text-align: center;
+    }
+    .blog_main{
+        margin: 20px 0;
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one ul li {
+        margin: 0 25px;
+    
+    }
+    #footer {
+     display: none;
+    }
+    #footer_last{
+        display: none;
+    }
+   
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    .header_col{
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .navbar-light .navbar-brand {
+       
+        margin-left: -26px;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #de4644 ;
+        border-color: #de4644 ;
+        position: absolute;
+        top: 10px;
+        right: 52px;
+        opacity: 1;
+       
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color:#de4644 ;
+        border-color: #de4644;
+    }
+    .navbar-toggler{
+        background-color:#de4644 ;
+        margin-right: 25px;
+        display: none;
+    }
+    .navbar-nav {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .nav-link{
+      color: white !important;  
+    }
+    .nav_lest{
+       display: none;
+    }
+    .navvv , .navvv_2{
+        display: block;
+    }
+    .navbar-brand img {
+     margin-left: 30px;
+    }
+
+    #banner .banner_part .banner_text h2 {
+        font-size: 50px;
+    }
+    #banner .banner_part .banner_text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner_part .banner_text p {
+        font-size: 13px;
+        color: #ffff;
+      
+    }
+    #banner .banner_part .banner_text .banner_button ul a {
+        font-size: 14px;
+        color: #ffff;
+    }
+    #banner .banner_part .banner_text .banner_button ul li {
+        line-height: 40px;
+        height: 40px;
+        width: 100px;
+        margin-right: 10px;
+    }
+    .banner_text{
+        margin-left: 20px;
+    }
+    #banner .banner_part {
+        padding: 80px 0;
+    }
+    #banner .banner_part .banner_text .banner_button ul {
+      margin-top: 30px;
+    }
+    #banner .left {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 52%;
+     
+    }
+    #banner .right {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        left: 45%;
+     
+    }
+    #service .service_main .service_item h3 {
+        font-size: 16px;
+      
+    }
+    #service .service_main .service_item {
+	
+	border-right: none;
+    }
+    #service .service_main .service_item p {
+	padding: 0 0;
+    }
+    #service .service_main .service_item h3 span {
+        font-size: 22px;
+        padding: 0 5px;
+    }
+    #service .service_main .service_item p {
+        font-size: 12px;
+        padding-top: 15px;
+      
+    }
+    #shop {
+        margin-top: 50px;
+    }
+    #shop .shop_item {
+        margin: 19px 0px;
+    }
+    #shop .shop_item .shop_img .shop_overly {
+
+        height: 180px;
+       
+    }
+    #shop .shop_item .shop_img .shop_overly .shop_button {
+        margin-left: 33%;
+    }
+    #feature .feature_butttons ul li {
+        padding: 0 10px;
+     
+    }
+    .feature_main .feature_img .feature_overly {
+        opacity: 1;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item {
+        right: 30%;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item ul li {
+        margin: 80px 0;
+    }
+    #laptop .laptop_container .laptop_1 img {
+        max-width: 95%;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 300px;
+        top: 12px;
+    }
+ 
+    #laptop .laptop_container .laptop_2 .laptop_text_main h2 {
+     
+        font-size: 30px;
+      
+    }
+    #laptop .laptop_container .laptop_2 .laptop_text_main h3 {
+     
+        font-size: 27px;
+    }
+    .offer ul li h5 {
+        font-size: 18px;
+        padding: 16px 24px;
+    }
+    .laptop_text_main{
+        padding-left: 10px;
+    }
+    .laptop_offer{
+        padding-left: 10px;
+    }
+
+    #feature .feature_butttons ul li:last-child{
+      
+        border-right:none; 
+    }
+
+    #laptop {
+        margin-top: 50px;
+        padding-top: 320px;
+    }
+    #laptop .laptop_container .laptop_1 {
+        position: absolute;
+        left: 40px;
+        top: -280px;
+    }
+    .product_main{
+        position: relative;
+    }
+   
+    
+    #testimonial {
+       display: none;
+    }
+    #testimonial_heading
+    {
+        display: none;
+    }
+    #blog{
+        margin-top: -70px;
+    }
+    .product_main .product_img .product_overly .product_overly_item ul li {
+        margin: 60px 0;
+    }
+    #blog .blog_main .blog_vedio .blog_overly {
+
+        opacity: 1;
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one {
+        left: 10px;
+    }
+    .blog_main{
+        margin: 20px 0;
+    }
+    #footer {
+     display: none;
+    }
+    #footer_last{
+        display: none;
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one ul li {
+        margin: 0 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+    .btn-primary {
+      display: none;  
+    }
+    .nav_lest{
+        display: none;
+    }
+    #banner .left {
+        right: 45%;
+    }
+    #shop .shop_item .shop_img .shop_overly .shop_button {
+        margin-left: 30%;
+       
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item {
+        right: 10%;
+    }
+    .feature_main .feature_img .feature_overly .feature_overly_item ul li a {
+      
+        font-size: 30px;
+    }
+    #laptop .laptop_container .laptop_1 img {
+        width: 75%;
+    }
+    #laptop .laptop_container .laptop_1{
+        left: -45px;
+        top: 125px;
+    }
+    .offer ul li {
+        margin: 0 10px;
+    }
+    .product_main .product_img .product_overly .product_overly_item ul li a {
+        
+        font-size: 30px;
+    }
+    .product_main .product_img .product_overly .product_overly_item {
+         right: 10%;
+    }
+   .testimonial_img img {
+        width: 100%;
+    }
+    #testimonial .left_test {
+        left: 42%;
+        
+    }
+    #blog .blog_main .blog_vedio .blog_overly .text_one {
+     display: none;
+    }
+    #footer .footer_two h3 {
+        padding-bottom: 16px;
+        padding-top: 40px;
+        font-size: 18px;
+       
+    }
+    #footer .footer_two p{
+        font-size: 14px;
+       
+    }
+    #footer .footer_one .footer_logo {
+        margin-top: 40px;
+    }
+    #footer .footer_three h3 {
+        padding-top: 40px;
+        padding-bottom:20px;
+    }
+    #footer .footer_four h3 {
+        padding-top: 40px; 
+    }
+    #footer .footer_four .font_item ul li {
+        margin: 0 5px;
+    }
+}
+
+/* @media (min-width: 1200px) and (max-width: 1399.98px){ 
+     
+
+
+}  */
